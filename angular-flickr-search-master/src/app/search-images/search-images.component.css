@@ -1,0 +1,35 @@
+
+.thumbnail {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+
+
+}
+
+
+
+
+  
+.overlay {
+  opacity: 0;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom:0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: #fff; 
+  padding: 10px; 
+  transition: opacity 0.3s ease; 
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
